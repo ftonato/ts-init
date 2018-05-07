@@ -1,17 +1,27 @@
 {
   "name": "ts-init",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "description": "A tool to initialize TypeScript and Webpack in your project",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "webpack --config ./webpack.config.js --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack --config ./webpack.config.js --mode development"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftonato/ts-init.git"
   },
+  "keywords": [
+    "typescript",
+    "ts",
+    "init",
+    "initializer"
+  ],
+  "author": "Ademílson F. Tonato <ademilsonft@outlook.com> (https://github.com/ftonato)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ftonato/ts-init/issues"
+  },
+  "homepage": "https://github.com/ftonato/ts-init#readme",
   "devDependencies": {
     "awesome-typescript-loader": "^5.0.0",
     "babel-core": "^6.26.3",

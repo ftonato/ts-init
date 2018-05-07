@@ -1,5 +1,5 @@
 # ts-init
-A tool to initialize TypeScript and Webpack in your project.
+A tool to initialize TypeScript and Webpack in your project
 
 **Scripts**
 * `npm start` - build your project
